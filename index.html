@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Tools Embed</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: gold;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .tool-card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .tool-card:hover {
+      transform: scale(1.02);
+      border-color: gold;
+    }
+
+    .tool-title {
+      font-size: 1.3rem;
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .tool-desc {
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+
+    .tool-btn {
+      display: inline-block;
+      background-color: gold;
+      color: #111;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .tool-btn:hover {
+      background-color: #f3c700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔥 Top AI Tools</h1>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-title">ChatGPT</div>
+        <div class="tool-desc">AI-powered writing and research assistant.</div>
+        <a href="https://chat.openai.com/" class="tool-btn" target="_blank">Try Now</a>
+      </div>
+      <div class="tool-card">
+        <div class="tool-title">Midjourney</div>
+        <div class="tool-desc">Create AI-generated art from text prompts.</div>
+        <a href="https://www.midjourney.com/" class="tool-btn" target="_blank">Try Now</a>
+      </div>
+      <div class="tool-card">
+        <div class="tool-title">Copy.ai</div>
+        <div class="tool-desc">Generate marketing copy in seconds.</div>
+        <a href="https://www.copy.ai/" class="tool-btn" target="_blank">Try Now</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
