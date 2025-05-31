@@ -3,109 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Tools Embed</title>
+  <title>AI Tools Hub</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #111;
-      color: #f5f5f5;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      background-attachment: fixed;
+      color: #eaeaea;
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1200px;
       margin: auto;
-      padding: 40px 20px;
+      padding: 60px 30px;
     }
 
     h1 {
       text-align: center;
-      color: gold;
-      font-size: 2.5rem;
-      margin-bottom: 30px;
+      font-size: 3rem;
+      background: linear-gradient(to right, #C9B037, #FFD700);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+      margin-bottom: 40px;
     }
 
     .tools-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
+      gap: 25px;
     }
 
     .tool-card {
-      background-color: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 12px;
-      padding: 20px;
-      transition: transform 0.3s ease;
+      background: rgba(25, 25, 25, 0.8);
+      border: 1px solid #2b2b2b;
+      border-radius: 16px;
+      padding: 24px;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 0 20px rgba(201, 176, 55, 0.05);
+      transition: all 0.3s ease-in-out;
     }
 
     .tool-card:hover {
-      transform: scale(1.02);
-      border-color: gold;
+      box-shadow: 0 0 20px rgba(201, 176, 55, 0.4);
+      transform: translateY(-5px);
     }
 
     .tool-title {
-      font-size: 1.3rem;
-      color: gold;
+      font-size: 1.5rem;
+      color: #C9B037;
       margin-bottom: 10px;
     }
 
     .tool-desc {
-      font-size: 0.95rem;
-      margin-bottom: 15px;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
     }
 
     .tool-btn {
-      display: inline-block;
-      background-color: gold;
-      color: #111;
-      padding: 10px 16px;
+      background-color: #C9B037;
+      color: #0d0d0d;
+      padding: 10px 18px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      transition: background-color 0.2s ease;
+      transition: background-color 0.3s ease;
     }
 
     .tool-btn:hover {
-      background-color: #f3c700;
+      background-color: #e0c75c;
+    }
+
+    footer {
+      text-align: center;
+      color: #888;
+      margin-top: 60px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>🔥 Top AI Tools</h1>
+    <h1>✨ Premium AI Tools Hub</h1>
     <div class="tools-grid">
       <div class="tool-card">
         <div class="tool-title">ChatGPT</div>
-        <div class="tool-desc">AI-powered writing and productivity assistant.</div>
+        <div class="tool-desc">Smart AI assistant for writing, coding, and research.</div>
         <a href="https://chat.openai.com/" class="tool-btn" target="_blank">Try Now</a>
       </div>
       <div class="tool-card">
         <div class="tool-title">Midjourney</div>
-        <div class="tool-desc">Create AI-generated art from text prompts.</div>
+        <div class="tool-desc">Create incredible art with AI prompts and imagination.</div>
         <a href="https://www.midjourney.com/" class="tool-btn" target="_blank">Try Now</a>
       </div>
       <div class="tool-card">
         <div class="tool-title">Copy.ai</div>
-        <div class="tool-desc">Generate marketing copy and ad content quickly.</div>
+        <div class="tool-desc">AI-powered tool to generate high-converting copy instantly.</div>
         <a href="https://www.copy.ai/" class="tool-btn" target="_blank">Try Now</a>
       </div>
       <div class="tool-card">
         <div class="tool-title">Notion AI</div>
-        <div class="tool-desc">Enhance your notes, wikis, and docs with smart AI.</div>
+        <div class="tool-desc">Enhance your notes and docs with intuitive AI tools.</div>
         <a href="https://www.notion.so/product/ai" class="tool-btn" target="_blank">Try Now</a>
       </div>
       <div class="tool-card">
         <div class="tool-title">Fireflies.ai</div>
-        <div class="tool-desc">AI-powered meeting assistant that takes notes automatically.</div>
+        <div class="tool-desc">Automated meeting assistant with summaries and transcriptions.</div>
         <a href="https://www.fireflies.ai/" class="tool-btn" target="_blank">Try Now</a>
       </div>
       <div class="tool-card">
         <div class="tool-title">Runway ML</div>
-        <div class="tool-desc">Create and edit videos using powerful AI tools.</div>
+        <div class="tool-desc">AI-powered video creation and editing at your fingertips.</div>
         <a href="https://runwayml.com/" class="tool-btn" target="_blank">Try Now</a>
       </div>
     </div>
+    <footer>
+      <p>© 2025 AI Tools Hub. All rights reserved.</p>
+    </footer>
   </div>
 </body>
 </html>
